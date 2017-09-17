@@ -26,7 +26,7 @@ if (cart.length === 0) {
   for (var i = 0; i < cart.length; i++) {
     base += `cart[i] at itemName[itemPrice]`
   }
-} return
+} return base
 }
 
 function total() {
