@@ -24,7 +24,7 @@ if (cart = []) {
 } else {
   var base = "In your cart, you have"
   for (var i = 0; i < cart.length; i++) {
-    base += ` ${cart[i]} at $${cart[i]}`
+    base += ` ${Object.keys(cart[i])} at $${cart[i]}`
   }
 } return console.log(`${base}`)
 }
