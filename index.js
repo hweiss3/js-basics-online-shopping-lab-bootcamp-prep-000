@@ -29,7 +29,7 @@ if (cart.length === 0 ) {
 } else {
   for (var i = 0; i < cart.length; i++) {
     if (i === cart.length-1) {
-      base += `and ${Object.keys(cart[i])} at $${cart[i][Object.keys(cart[i])]}.`
+      base += ` and ${Object.keys(cart[i])} at $${cart[i][Object.keys(cart[i])]}.`
     } else {
       base += ` ${Object.keys(cart[i])} at $${cart[i][Object.keys(cart[i])]},`
     }
