@@ -17,6 +17,7 @@ function addToCart(item) {
     return Math.floor(Math.random() * max - min)) + min)
   }
   cart.push(item)
+  console.log(`${itemName} has been added to your cart.`)
 }
 
 function viewCart() {
