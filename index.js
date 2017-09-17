@@ -22,7 +22,7 @@ function viewCart() {
 if (cart = []) {
   console.log("Your shopping cart is empty.")
 } else if (cart.length=1) {
-    return `In your cart, you have ${itemName} at ${itemPrice}.`
+    console.log `In your cart, you have ${itemName} at ${itemPrice}.`
 } {
   var base = "In your cart, you have"
   for (var i = 0; i < cart.length; i++) {
