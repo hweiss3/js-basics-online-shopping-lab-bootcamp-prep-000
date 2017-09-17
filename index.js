@@ -21,7 +21,7 @@ function addToCart(item) {
 function viewCart() {
 if (cart = []) {
   console.log("Your shopping cart is empty.")
-} else if (cart.length=1) {
+} else if (cart.length===1) {
     console.log(`In your cart, you have ${itemName} at ${itemPrice}.`)
 } {
   var base = "In your cart, you have"
