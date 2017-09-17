@@ -26,7 +26,7 @@ if (cart = []) {
   for (var i = 0; i < cart.length; i++) {
     base += ` ${Object.keys(cart[i])} at $${cart[i]}`
   }
-} return console.log(`${base}`)
+} console.log(`${base}`)
 }
 
 function total() {
