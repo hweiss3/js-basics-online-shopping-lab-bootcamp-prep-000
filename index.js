@@ -20,7 +20,7 @@ function addToCart(item) {
 
 function viewCart() {
 if (cart = []) {
-  return "Your shopping cart is empty."
+  console.log(Your shopping cart is empty.) 
 } else {
   var base = "In your cart, you have"
   for (var i = 0; i < cart.length; i++) {
