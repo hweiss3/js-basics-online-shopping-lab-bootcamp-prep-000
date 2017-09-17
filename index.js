@@ -28,6 +28,14 @@ if (cart.length === 0 ) {
 } else if (cart.length === 2) {
     base += ` ${Object.keys(cart[0])} at $${cart[0][Object.keys(cart[0])]} and ${Object.keys(cart[1])} at $${cart[1][Object.keys(cart[1])]}.`
   } console.log(base)
+} else {
+  for (var i = 0; i < cart.length; i++) {
+    if (i === cart.length-1) {
+      base += `and ${Object.keys(cart[i])} at $${cart[i][Object.keys(cart[i])]}.`
+    } else {
+      base += ` ${Object.keys(cart[i])} at $${cart[i][Object.keys(cart[i])]},`
+    } console.log(base)
+  }
 }
 }
 
