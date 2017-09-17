@@ -19,7 +19,7 @@ function addToCart(item) {
 }
 
 function viewCart() {
-if (cart.length === 0) {
+if (cart = []) {
   return "Your shopping cart is empty."
 } else {
   var base = "In your cart, you have"
