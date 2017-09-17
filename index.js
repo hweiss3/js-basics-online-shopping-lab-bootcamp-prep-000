@@ -26,7 +26,7 @@ if (cart = []) {
   for (var i = 0; i < cart.length; i++) {
     base += ` ${cart[i]} at $${itemName[itemPrice]}`
   }
-} return base
+} return console.log(base)
 }
 
 function total() {
