@@ -22,7 +22,7 @@ function viewCart() {
   var base = "In your cart, you have"
 if (cart.length === 0 ) {
   console.log("Your shopping cart is empty.")
-} elseif (cart.length === 1){
+} else if (cart.length === 1){
     base += ` ${Object.keys(cart[0])} at $${cart[0][Object.keys(cart[i])]}.`
   } console.log(base)
 } else if (cart.length === 2) {
