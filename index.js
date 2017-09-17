@@ -19,7 +19,14 @@ function addToCart(item) {
 }
 
 function viewCart() {
-  // write your code here
+if (cart = []) {
+  return "Your shopping cart is empty"  
+} else {
+  var base = "In your cart, you have"
+  for (var i = 0; i < cart.length; i++) {
+    base += `cart[i] at itemName[itemPrice]`
+  }
+} return 
 }
 
 function total() {
