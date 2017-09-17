@@ -11,10 +11,6 @@ function setCart(c) {
 
 function addToCart(item) {
   var item = {[itemName] : itemPrice}
-  var itemPrice = function randomPrice(min,max){
-    min = Math.ceil(1)
-    max - Math.floor(100)
-    return Math.floor(Math.random() * max - min)) + min)
   }
   cart.push(item)
   console.log(`${itemName} has been added to your cart.`)
