@@ -32,9 +32,9 @@ if (cart.length === 0 ) {
       base += `and ${Object.keys(cart[i])} at $${cart[i][Object.keys(cart[i])]}.`
     } else {
       base += ` ${Object.keys(cart[i])} at $${cart[i][Object.keys(cart[i])]},`
-    } console.log(base)
+    } 
   }
-}
+} console.log(base)
 }
 
 function total() {
